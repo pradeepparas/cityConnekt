@@ -1,0 +1,302 @@
+/* .subMenuItems {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    padding-top: 8px;
+    padding-right: 10%;
+    padding-bottom: 8px;
+    word-wrap: inherit;
+    makeStyles-drawerOpen-11
+} */
+.subMenuItems {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    padding-top: 8px;
+    padding-right: 10%;
+    padding-bottom: 8px;
+    word-wrap: inherit;
+}
+
+.link {
+    text-decoration: none;
+    color: #43425D;
+}
+.topbarRight{
+    right: 0px;
+    margin-right: 15px;
+    position: absolute;
+    display: flex;
+    height: 100%;
+}
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+.subMenuItems {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    padding-top: 8px;
+    padding-right: 10%;
+    padding-bottom: 8px;
+    word-wrap: inherit;
+}
+.profile{
+    margin-left: 20px;
+    margin-bottom: 0;
+    position: relative;
+}
+.avatar{
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    border-radius: 0;
+    border: none;
+    transition: all 0.3s;
+    box-shadow: none;
+    padding: 0 4px;
+    background-color: transparent;
+}
+Avatar{
+    margin: auto;
+}
+.avatarName{
+    color: #646777 !important;
+    margin-left: 10px;
+    display: block;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.avatar svg{
+    margin: auto;
+    height: 18px;
+    width: 18px;
+    fill: #b1c3c8;}
+.topBarBack{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background: transparent;
+    border: none;
+}
+.topBarMenuWrap{
+    right: 0px;
+    z-index: 101;
+    position: absolute;
+  width: 100%;
+    /* min-width: 210px; */
+}
+.topBarMenu{
+    left: 0px !important;
+    background: white;
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    padding: 15px 0;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.05);
+    margin-top: 0;
+}
+.hr{
+    margin: auto;
+    margin-left: 6px;
+    border-right: 2px solid rgb(239 239 239);
+    display: block;
+    /* width: 100%; */
+    height: 20px;
+    margin-right: -2px;
+}
+.tobBarLinik{
+    color: #707070;
+    display: flex;
+    padding: 9px 4px;
+    transition: all 0.3s;
+    height: 32px;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    /* text-decoration: none; */
+}
+.tobBarLinik:hover{
+    background-color: #fafbfe;
+    color: #707070;
+}
+.tobBarLinik:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background: #4ce1b6;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.noHover:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 0px !important;
+    background:#fafbfe !important;
+    opacity: 0;
+    transition: all 0.3s;
+}
+button:focus{
+    outline: none !important;
+}
+.tobBarLinik:hover:before {
+    opacity: 1;
+}
+.tobBarLinkTitle{
+    color: #646777;
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+}
+.tobBarLinkIcon{
+    color: #dddddd;
+    margin-right: 10px;
+    font-size: 13px;
+    line-height: 13px;
+}
+.topBarCollapse{
+    position: relative;
+}
+.topBarCollapseLng{
+    min-width: 70px;
+    display: block;
+
+}
+.topBarCollapseLng{
+
+    color: #646777;
+}
+.tobBarButton{
+    font-size: 18px;
+    height: 100%;
+    padding: 0 10px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    border: none;
+    background: transparent;
+    transition: all 0.3s;
+    padding: 0 4px;
+    width: 100%;
+
+}
+.tobBarButton{
+    padding: 0 4px;
+    width: 100%;
+}
+.topBarLngBtnTitle:not(:last-child) {
+    margin-right: 5px;
+}
+.topBarLngBtnTitle:not(:last-child) {
+    margin-right: 5px;
+    color: #646777;
+    display: flex;
+    font-size: 11px;
+    align-items: center;
+    margin: auto 0;
+}
+.topBarLngBtnTitle img {
+    margin-right: 4px;
+    height: 11px;
+    width: 16px
+}
+.tobBarButton svg {
+    margin: auto;
+    height: 18px;
+    width: 18px;
+    fill: #b1c3c8;
+    margin-left: 8px;
+}
+
+.tobBarContentCollapse{
+    background: white;
+    right: 0px;
+}
+.tobBarContentCollapse{
+    /* width: 270px; */
+    position: absolute;
+    bottom: 20px;
+    transform: translateY(100%);
+    box-shadow: 0 10px 25px 0 rgba(33, 36, 50, 0.13);
+    z-index: 101;
+}
+.tobBarClsContentLgn{
+    width: 72px;
+    padding: 10px 0;
+    bottom: 0;
+    /* width: 100%; */
+    transform: translateY(100%);
+
+}
+.topBarLngBtn{
+    text-align: left;
+    padding: 4px 15px;
+    width: 100%;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 16px;
+    transition: 0.3s;
+    font-family: sans-serif;
+    font-size: 100%;
+}
+.link {
+    text-decoration: none;
+    color: #43425D;
+}
+.active{
+    border-left: 3px solid #F2134F !important;
+    color: #F2134F !important;
+}
+.activeIcon{
+    color: #F2134F !important;
+}
+.inactive{
+    color: rgba(0, 0, 0, 0.54);
+}
+.tagLine{
+    display: inline-grid;
+}
+::-webkit-scrollbar {
+    /* display: none; */
+}
+
+@media (max-width: 756px) {
+  /* .MuiList-root {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    list-style: none;
+} */
+/*  (min-width: 426px) and  */
+  .tagLine{
+      display: none;
+  }
+}
