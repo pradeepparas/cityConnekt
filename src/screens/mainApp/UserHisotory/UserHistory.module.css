@@ -1,0 +1,331 @@
+.main {
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #43425D;
+    font-size: 28px;
+    margin-left: 2%;
+}
+.button1 {
+  backgroundColor: "#43425D";
+ 	color: "white";
+ 	borderRadius: 17px;
+  textTransform: none;
+ 	width: 109px;
+ 	outline: none;
+ 	marginLeft: 5%;
+}
+
+.Form1 {
+  width: 60%;
+  /* margin-top: 4px; */
+  /* margin-bottom: 8px; */
+  /* border: 0;
+  margin: 0;
+  display: inline-flex;
+  padding: 0;
+  position: relative;
+  min-width: 0;
+  flex-direction: column;
+  vertical-align: top; */
+}
+.date1 {
+  width: 40%;
+  /* margin-bottom: 8px; */
+},
+
+.tableDiv {
+    background-color: white;
+    margin-top: 2%;
+    padding: 0 1.5%;
+    margin-left: 2%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.searchBar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.dropDownDiv {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    margin-left: -7%;
+    align-items: flex-end;
+}
+.M_L{
+    margin-left: -1%;
+}
+
+.searchBarDiv {
+    padding: 1% 0;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.searchBarDiv1{
+    padding: 1% 0;
+    /* display: flex; */
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.searchAndDrop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.buttonAndFilter {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.paginationDiv {
+    margin-top: 2%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.seaarchSelect{
+    color: #616161;
+    font-size: 13px;
+    min-width: 8.5vw;
+    background: white;
+    padding-top: 0px;
+    border-color: #D7DAE2;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 0px;
+    border-radius: 4px;
+    padding-bottom: 0px
+}
+.seaarchSelect svg{
+    color: #9e9e9e;
+}
+.seaarchSelect div{
+    color: black;
+    /* min-width: 51vw; */
+    background: white;
+
+    /* color: #616161;
+    min-width: 51vw !important;
+    background: white;
+    padding-top: 10px;
+    border-color: #D7DAE2;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 5px;
+    border-radius: 4px;
+    padding-bottom: 10px; */
+    /* padding-top: 10px; */
+    /* border-color: #D7DAE2;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 5px;
+    border-radius: 4px;
+    padding-bottom: 10px; */
+  border: none !important;
+  min-height: 16px;
+}
+.seaarchSelect span{
+    background-color: white;
+}
+@media (min-width: 1441px) and (max-width: 2560px) {
+    .searchAndDrop {
+        width: 63%;
+    }
+    .dropDownDiv {
+        width: 60%;
+    }
+    .buttonAndFilter {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .searchAndDrop {
+        width: 70%;
+    }
+    .dropDownDiv {
+        width: 85%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+    .searchAndDrop {
+        width: 95%;
+    }
+    .dropDownDiv {
+        width: 55%;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .searchAndDrop {
+        width: 90%;
+    }
+    .dropDownDiv {
+        width: 60%;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .searchAndDrop {
+        width: 70%;
+    }
+    .dropDownDiv {
+        width: 80%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .searchAndDrop {
+        width: 100%;
+    }
+    .dropDownDiv {
+        width: 55%;
+    }
+}
+
+@media (min-width: 280px) and (max-width : 540px) {
+ .table  {
+     width: 97%;
+ }
+ .searchBarDiv {
+     /* padding: 1% 0; */
+     display: flex;
+     width: 100%;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ .searchAndDrop {
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .dropDownDiv {
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .Form1 {
+   width: 95%;
+   margin-bottom: 8px;
+   /* border: 0;
+   margin: 0;
+   display: inline-flex;
+   padding: 0;
+   position: relative;
+   min-width: 0;
+   flex-direction: column;
+   vertical-align: top; */
+ }
+ .date1 {
+   width: 90%;
+   margin-bottom: 8px;
+ },
+ .button1 {
+   width: 90%;
+   margin-bottom: 8px;
+ }
+ .buttonAndFilter {
+     display: flex;
+     justify-content: center;
+     margin-top: 8px;
+     width: 100%;
+     margin-bottom: 8%;
+ }
+}
+
+@media (min-width: 280px) and (height : 653px) {
+  .tableDiv {
+      background-color: white;
+      margin-top: 2%;
+      padding: 0 1.5%;
+      margin-left: -3%;
+      height: 80%;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+  }
+}
+
+@media (width: 768px) and (height : 1024px) {
+
+  .dropDownDiv {
+      /* width: 25%; */
+      display: flex;
+      flex-direction: row;
+      margin-left: -20%;
+      align-items: flex-end;
+  }
+  .Form1 {
+    width: 60%;
+    margin-top: 5px;
+    /* margin-bottom: 8px; */
+    /* border: 0;
+    margin: 0;
+    display: inline-flex;
+    padding: 0;
+    position: relative;
+    min-width: 0;
+    flex-direction: column;
+    vertical-align: top; */
+  }
+  .date1 {
+    width: 50%;
+    /* margin-bottom: 8px; */
+  }
+}
+
+@media (min-width: 1024px) and (max-width : 1366px) {
+
+  .dropDownDiv {
+      /* width: 25%; */
+      display: flex;
+      flex-direction: row;
+      margin-left: -16%;
+      align-items: flex-end;
+  }
+  .Form1 {
+    width: 55%;
+    margin-top: 5px;
+    /* margin-bottom: 8px; */
+    /* border: 0;
+    margin: 0;
+    display: inline-flex;
+    padding: 0;
+    position: relative;
+    min-width: 0;
+    flex-direction: column;
+    vertical-align: top; */
+  }
+  .date1 {
+    width: 30%;
+    /* margin-bottom: 8px; */
+  }
+}
