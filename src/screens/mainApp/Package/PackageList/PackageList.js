@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import  { Link, useHistory } from "react-router-dom";
 import GetAppIcon from "@material-ui/icons/GetApp";
 import {hasAccess} from '../../../../shared/HasAccess'
-
+// MuiTableContainer
 import {
 	Modal,
 	ModalHeader,
@@ -48,11 +48,79 @@ const useStyles = makeStyles((theme) => ({
             backgroundColor: "#3B86FF",
             color: "white",
         },
+		["@media (width: 320px) and (height: 568px)"]: {
+					width: '50%'
+	  },
 	},
 	table: {
 		minWidth: 650,
 		borderRadius: 0,
 	},
+	button1: {
+		width: '50%',
+		marginLeft: -120,
+		["@media (width: 1024px) and (height: 1366px)"]: {
+			width: '50%',
+			marginLeft: -140,
+		},
+		["@media (width: 768px) and (height: 1024px)"]: {
+			width: '50%',
+			marginLeft: -70,
+		},
+		["@media (width: 320px) and (height: 568px)"]: {
+			width: '100%'
+		},
+		["@media (min-width: 280px) and (max-width: 568px)"]: {
+		width: '87%',
+		marginTop: '5px'
+	  }
+	},
+	button3: {
+		width: '50%',
+		["@media (width: 1024px) and (height: 1366px)"]: {
+			width: '50%',
+			marginLeft: -140,
+		},
+		["@media (width: 768px) and (height: 1024px)"]: {
+			width: '50%',
+			marginLeft: -70,
+		},
+		["@media (width: 320px) and (height: 568px)"]: {
+			width: '100%'
+		},
+		["@media (min-width: 280px) and (max-width: 568px)"]: {
+		width: '87%',
+		marginTop: '5px'
+	  }
+	},
+	button2: {
+		["@media (width: 320px) and (height: 568px)"]: {
+			width: '100%',
+			marginLeft: 0
+		},
+		["@media (width: 360px) and (height: 640px)"]: {
+			marginLeft: 6,
+		},
+		// ["@media (width: 768px) and (height: 1024px)"]: {
+		// 	width: '50%',
+		// 	marginLeft: -70,
+		// },
+		["@media (min-width: 280px) and (max-width: 568px)"]: {
+		width: '93%',
+		marginLeft: 7,
+		marginTop: '5px',
+		marginBottom: '5px'
+		},
+		["@media (width: 540px) and (height: 720px)"]: {
+			marginLeft: 11
+		}
+	},
+	text1: {
+		["@media (width: 540px) and (height: 720px)"]: {
+			width: '100%'
+		}
+	}
+
 }));
 
 
@@ -165,7 +233,7 @@ const toggleModal =(e,data)=>{
 			<div className={styles.tableDiv}>
 				<div className={styles.searchBarDiv}>
 					<div className={styles.searchAndDrop}>
-						<div>
+						<div className={styles.searchAndDrop1}>
 							<div className={styles.searchBar}>
 								<TextField
 									id="standard-search"
@@ -179,6 +247,7 @@ const toggleModal =(e,data)=>{
 										borderColor: "#F5F6FA",
 										borderRadius: "4px",
 									}}
+									className={classes.text1}
 									InputProps={{
 										startAdornment: icon,
 										placeholder:(t('package.search')),
@@ -191,14 +260,15 @@ const toggleModal =(e,data)=>{
 						</div>
 						<div className={styles.dropDownDiv}>
 							<Button
+								className={classes.button1}
 								variant="contained"
 								style={{
 									backgroundColor: "#43425D",
 									color: "white",
 									borderRadius: "20px",
 									textTransform: "none",
-									width: window.innerWidth<='400'?"100%" :"35%",
-									marginTop: window.innerWidth<='400'?"5px" :"",
+									// width: window.innerWidth<='400'?"100%" :"35%",
+									// marginTop: window.innerWidth<='400'?"5px" :"",
 								}}
 								onClick={onSearchPackage}
 							>
@@ -208,6 +278,7 @@ const toggleModal =(e,data)=>{
 					</div>
 					<div className={styles.buttonDiv}>
 					<Button
+						className={classes.button3}
 						onClick={downloadPackage}
 							variant="contained"
 							color="secondary"
@@ -224,7 +295,9 @@ const toggleModal =(e,data)=>{
 							Download
 							<GetAppIcon style={{ marginLeft: "20%" }} />
 						</Button>
-						{props.accessList.module!==undefined&&hasAccess('submoduleId', 'package_add',props.accessList.module) &&<Link style={{textDecoration:"none"}} to='/add-package'><Button
+						{props.accessList.module!==undefined&&hasAccess('submoduleId', 'package_add',props.accessList.module) &&<Link
+						className={classes.button2} style={{textDecoration:"none"}} to='/add-package'><Button
+						  className={classes.button2}
 							variant="contained"
 							color="secondary"
 							style={{

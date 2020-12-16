@@ -4,7 +4,7 @@
     height: 100%;
     padding: 2%;
 }
-
+/* buttonDiv */
 .title {
     display: flex;
     justify-content: flex-start;
@@ -147,10 +147,54 @@
       width: 100%;
   }
   .buttonDiv {
-      width: 100%;
+      width: 90%;
+      margin-left: -22px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+  }
+}
+
+/* tableDiv */
+@media (min-width: 280px) and (max-width: 653px) {
+  .tableDiv {
+      background-color: white;
+      width: 96%;
+      margin-top: 2%;
+      padding: 0 1.5%;
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+  }
+}
+
+@media (width: 320px) and (height: 568px) {
+  .tableDiv {
+      width: 95%;
+  }
+}
+
+@media (width: 540px) and (height: 720px) {
+  .tableDiv {
+      width: 100%;
+  }
+  .searchAndDrop1 {
+    width: 85%;
+  }
+}
+
+@media (width: 768px) and (height: 1024px) {
+  .buttonDiv {
+      width: 48%;
+      margin-left: -84px;
+  }
+}
+
+@media (width: 1024px) and (height: 1366px) {
+  .buttonDiv {
+      width: 38%;
+      /* margin-left: -84px; */
   }
 }
