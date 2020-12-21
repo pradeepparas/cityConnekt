@@ -1,0 +1,228 @@
+.main {
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 28px;
+  color: #43425D;
+}
+.download1{
+  text-transform: none !important ;
+    background-color: rgb(59, 134, 255) !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    outline: none !important;
+    margin-left: 75% !important;
+    font-size: smaller !important;
+}
+
+.download{
+  text-transform: none !important ;
+    background-color: rgb(59, 134, 255) !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    outline: none !important;
+    margin-left: 46% !important;
+    font-size: smaller !important;
+}
+.tableDiv {
+  background-color: white;
+  margin-top: 2%;
+  padding: 0 1.5%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 35%;
+}
+
+.searchText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropDownDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.searchBarDiv {
+  padding: 1% 0;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.searchAndDrop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.buttonDiv {
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.paginationDiv {
+  margin-top: 2%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+@media (min-width: 1441px) and (max-width: 2560px) {
+  .searchAndDrop {
+      width: 80%;
+  }
+  .dropDownDiv {
+      width: 60%;
+  }
+  .searchBar {
+      width: 38%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .searchAndDrop {
+      width: 51%;
+  }
+  .dropDownDiv {
+      width: 79%;
+  }
+  .searchBar {
+      width: 36%;
+      margin-right: 9px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .searchAndDrop {
+      width: 95%;
+  }
+  .dropDownDiv {
+      width: 45%;
+  }
+  .searchBar {
+      width: 50%;
+  }
+}
+/* 1025 */
+@media (min-width: 426px) and (max-width: 768px) {
+  /* .searchAndDrop {
+      width: 120%;
+  } */
+  .dropDownDiv {
+      width: 40%;
+  }
+  .searchBar {
+      width: 58%;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+  .searchAndDrop {
+      width: 100%;
+  }
+  .dropDownDiv {
+      width: 30%;
+  }
+  .searchBar {
+      width: 68%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .searchAndDrop {
+      width: 70%;
+  }
+  .dropDownDiv {
+      width: 80%;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 540px) {
+  .tableDiv {
+    width: 96%;
+  }
+  .title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 100%;
+    color: #43425D;
+  }
+  .searchAndDrop {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .dropDownDiv {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttonDiv {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .searchBarDiv {
+      padding: 1% 0;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .searchBar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+  }
+  .download{
+    text-transform: none !important ;
+      background-color: rgb(59, 134, 255) !important;
+      text-align: center !important;
+      white-space: nowrap !important;
+      outline: none !important;
+      margin-left: 0% !important;
+      font-size: smaller !important;
+      margin-top: 5px;
+      width: 98%;
+  }
+}
+/* download1 */
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  .searchAndDrop {
+      width: 43%;
+  }
+}
