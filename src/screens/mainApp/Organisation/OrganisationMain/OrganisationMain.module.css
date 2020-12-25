@@ -1,0 +1,969 @@
+.main {
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.profileSpan {
+  font-size: large;
+}
+/* teamDiv */
+
+.formSpan1 {
+  font-size: 22px;
+}
+
+.title {
+    margin-left: 2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 28px;
+    color: #43425d;
+}
+
+.tabsDiv {
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+
+/*Organisation */
+
+.organisationDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    margin-left: -1%;
+}
+
+.organisationFormDiv {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 12px #00000014;
+}
+
+.formRowDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 3%;
+    margin-bottom: 4%;
+}
+.collapsing{
+    right: 0px !important;
+}
+
+.organisationProfileDiv {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.buttonAndFilterRole {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.container {
+    width: 250px;
+    margin-top: 5%;
+}
+
+.circle {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding: 100% 0 0;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 7px solid white;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.circle img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.peopleDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+/* Inventory */
+
+.tableDiv {
+    background-color: white;
+    margin-left: -1%;
+    margin-top: 1.5%;
+    padding: 1.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.searchBar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.searchText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropDownDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 40%;
+}
+
+.searchBarDiv {
+    padding: 1% 0;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.searchAndDrop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.buttonAndFilter {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+@media (min-width: 1441px) and (max-width: 2560px) {
+    .searchAndDrop {
+        width: 50%;
+    }
+    .dropDownDiv {
+        width: 60%;
+    }
+    .buttonAndFilter {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .searchAndDrop {
+        width: 50%;
+    }
+    .dropDownDiv {
+        width: 50%;
+    }
+    .buttonAndFilter {
+        width: 30%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .searchAndDrop {
+        width: 70%;
+    }
+    .dropDownDiv {
+        width: 60%;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .searchAndDrop {
+        width: 50%;
+    }
+    .dropDownDiv {
+        width: 50%;
+    }
+    .buttonAndFilter {
+        width: 65%;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .searchAndDrop {
+        width: 70%;
+    }
+    .dropDownDiv {
+        width: 80%;
+    }
+    .buttonAndFilter {
+        width: 65%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .searchAndDrop {
+        width: 70%;
+    }
+    .dropDownDiv {
+        width: 80%;
+    }
+    .buttonAndFilter {
+        width: 85%;
+    }
+}
+
+
+/* Billing */
+
+.billingFormDiv {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 12px #00000014;
+    margin-left: -1%;
+}
+
+
+/*Account*/
+
+.paginationDiv {
+    margin-top: 2%;
+    /* display: flex; */
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.paginationDiv {
+    margin-top: 2%;
+    /* display: flex; */
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+/*Account2 */
+
+.acc2mainDiv {
+    background-color: white;
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    margin-left: -1%;
+}
+
+.spanDiv {
+    text-align: center;
+    font: normal normal normal 25px/33px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    margin-top: 10%;
+}
+
+
+/*Settings*/
+
+.settingsFormDiv {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 12px #00000014;
+}
+
+
+/* Modules */
+
+.moduleDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: -2%;
+}
+
+.table1div {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+}
+
+.table2div {
+    width: 73%;
+}
+
+
+/* Teams */
+
+.teamDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 2%;
+    width: 100%;
+}
+
+@media (min-width: 1366px) and (max-width: 1400px) {
+  .teamDiv {
+      width: 85%;
+  }
+}
+
+.cardDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.circleCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerDiv {
+    width: 100px;
+    margin-top: 5%;
+}
+
+.circleDiv {
+    height: auto;
+    padding-top: 30%;
+    width: 30%;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    background: #3b86ff;
+    position: absolute;
+    margin-top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.teamTableDiv {
+    width: 100%;
+    margin-top: 4%;
+}
+
+.teamButtonDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 7%;
+    width: 100%;
+}
+
+
+/* VerifyDocument */
+
+.vdtable2div {
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.vdsearchBar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.vdsearchText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vddropDownDiv {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.vdsearchBarDiv {
+    padding: 1% 0;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.vdsearchAndDrop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.vdbuttonAndFilter {
+    display: flex;
+    width: 30%;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.vdpaginationDiv {
+    margin-top: 2%;
+    /* display: flex; */
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.modalContainer {
+    max-height: 26vw;
+    overflow-x: hidden;
+}
+.selected{
+    font-weight: bold !important;
+}
+.paginationDiv {
+    margin-top: 2%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    /* margin-right: 6%; */
+}
+
+.vdinnerDiv {
+    margin: 2% 0;
+    background-color: #F0F2F8;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.vdmodalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-height: 26vw;
+    overflow-x: hidden;
+}
+.profile{
+    margin-left: 20px;
+    margin-bottom: 0;
+    position: relative;
+    margin-bottom: 0;
+    position: relative;
+    background: black;
+    /* padding: 8px 18px; */
+    border-radius: 2px;
+    width: 92px;
+    height: 34px;
+}
+.avatar{
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    border-radius: 0;
+    border: none;
+    transition: all 0.3s;
+    box-shadow: none;
+    padding: 0 4px;
+    background-color: transparent;
+}
+Avatar{
+    margin: auto;
+}
+.avatarName{
+    color: #646777 !important;
+    margin-left: 10px;
+    display: block;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.avatar svg{
+    margin: auto;
+    height: 33px;
+    width: 27px;
+    fill: #b1c3c8;
+    margin-left: 14px;
+}
+.topBarBack{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background: transparent;
+    border: none;
+}
+.topBarMenuWrap{
+    right: 0px;
+    z-index: 101;
+    position: absolute;
+  width: 100%;
+  width: 217px;
+  box-shadow: 1px 1px 2px 0px black;
+    /* min-width: 210px; */
+}
+.topBarMenu{
+    left: 0px !important;
+    background: white;
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    padding: 15px 0;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.05);
+    margin-top: 0;
+    padding: 8px 0;
+}
+.hr{
+    margin: auto;
+    margin-left: 6px;
+    border-right: 2px solid rgb(239 239 239);
+    display: block;
+    /* width: 100%; */
+    height: 20px;
+    margin-right: -2px;
+}
+.tobBarLinik{
+    color: #707070;
+    display: flex;
+    padding: 9px 4px;
+    transition: all 0.3s;
+    height: 32px;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    /* text-decoration: none; */
+}
+.tobBarLinik:hover{
+    background-color: #fafbfe;
+    color: #707070;
+}
+.tobBarLinik:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background: #4ce1b6;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.noHover:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 0px !important;
+    background:#fafbfe !important;
+    opacity: 0;
+    transition: all 0.3s;
+}
+button:focus{
+    outline: none !important;
+}
+.tobBarLinik:hover:before {
+    opacity: 1;
+}
+.tobBarLinkTitle{
+    color: #646777;
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+}
+.tobBarLinkIcon{
+    color: #dddddd;
+    margin-right: 10px;
+    font-size: 13px;
+    line-height: 13px;
+}
+.topBarCollapse{
+    position: relative;
+}
+.topBarCollapseLng{
+    min-width: 70px;
+    display: block;
+
+}
+.topBarCollapseLng{
+
+    color: #646777;
+}
+.tobBarButton{
+    font-size: 18px;
+    height: 100%;
+    padding: 0 10px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    border: none;
+    background: transparent;
+    transition: all 0.3s;
+    padding: 0 4px;
+    width: 100%;
+
+}
+.tobBarButton{
+    padding: 0 4px;
+    width: 100%;
+}
+.topBarLngBtnTitle:not(:last-child) {
+    margin-right: 5px;
+}
+.topBarLngBtnTitle:not(:last-child) {
+    margin-right: 5px;
+    color: #646777;
+    display: flex;
+    font-size: 11px;
+    align-items: center;
+    margin: auto 0;
+}
+.topBarLngBtnTitle img {
+    margin-right: 4px;
+    height: 11px;
+    width: 16px
+}
+.tobBarButton svg {
+    margin: auto;
+    height: 18px;
+    width: 18px;
+    fill: #b1c3c8;
+    margin-left: 8px;
+}
+
+.tobBarContentCollapse{
+    background: white;
+    right: 0px;
+}
+.tobBarContentCollapse{
+    /* width: 270px; */
+    position: absolute;
+    bottom: 20px;
+    transform: translateY(100%);
+    box-shadow: 0 10px 25px 0 rgba(33, 36, 50, 0.13);
+    z-index: 101;
+}
+.tobBarClsContentLgn{
+    width: 72px;
+    padding: 10px 0;
+    bottom: 0;
+    /* width: 100%; */
+    transform: translateY(100%);
+
+}
+.topBarLngBtn{
+    text-align: left;
+    padding: 4px 15px;
+    width: 100%;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 16px;
+    transition: 0.3s;
+    font-family: sans-serif;
+    font-size: 100%;
+}
+.link {
+    text-decoration: none;
+    color: #43425D;
+}
+@media (min-width: 1441px) and (max-width: 2560px) {
+    .vdsearchAndDrop {
+        width: 55%;
+    }
+    .vddropDownDiv {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .vdsearchAndDrop {
+        width: 100%;
+    }
+    .vddropDownDiv {
+        width: 50%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .vdsearchAndDrop {
+        width: 70%;
+    }
+    .vddropDownDiv {
+        width: 60%;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .vdsearchAndDrop {
+        width: 70%;
+    }
+    .vddropDownDiv {
+        width: 60%;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .vdsearchAndDrop {
+        width: 70%;
+    }
+    .vddropDownDiv {
+        width: 80%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .vdsearchAndDrop {
+        width: 70%;
+    }
+    .vddropDownDiv {
+        width: 80%;
+    }
+}
+
+
+/* Security */
+
+.secMainDiv {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-left: -1%;
+    padding: 0.5%;
+}
+
+.secHeader {
+    width: 100%;
+    height: 10%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+.secTitle {
+    margin-left: 3%;
+    color: #707070;
+    font-size: 22px;
+    font: Source Sans Pro;
+}
+
+.secHeader2 {
+    background-color: #F5F6FA;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.secTitle2 {
+    color: #43425D;
+    font-size: 22px;
+    font: Semibold 22px/25px Source Sans Pro;
+    font-weight: 500;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.cellDiv {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 6%;
+    border-bottom: 0.5px solid #BBBBBB;
+}
+
+.innerCellDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0%;
+    margin-left: 5%;
+}
+
+.secFinalDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+@media (min-width: 280px) and (max-width: 411px) {
+  .uploadButton1 {
+    width: 119px;
+    font-size: 11px;
+  }
+  .profileSpan {
+    width: 150px;
+    /* font-size: smaller; */
+    text-align: center;
+  }
+}
+
+/* organisationDiv organisationProfileDiv*/
+@media (min-width: 280px) and (height: 653px) {
+  .container {
+    width: 200px;
+  }
+  .organisationFormDiv {
+      display: flex;
+      flex-direction: column;
+      width: 205px;
+      height: 100%;
+      background-color: #ffffff;
+      box-shadow: 0px 3px 12px #00000014;
+  }
+  .organisationProfileDiv {
+      /* width: 40%;
+      height: 100%;
+      display: flex; */
+      margin-bottom: 8%;
+      /* flex-direction: column;
+      align-items: center;
+      justify-content: center; */
+  }
+  .organisationDiv {
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .tabsDiv {
+      width: 99%;
+      margin-left: 2%;
+      margin-top: 2%;
+  }
+  .title {
+      font-size: 22px;
+  },
+  .formSpan1 {
+    font-size: 16px;
+  }
+  .formSpan2 {
+    font-size: 13px;
+  }
+}
+
+/* @media (max-width: 599.95px){
+
+.MuiTabs-scrollButtonsDesktop {
+   display: contents;
+}
+} */
+
+@media (min-width: 281px) and (max-width: 768px) {
+    /* .teamTableDiv {
+      width: 288px;
+      margin-left: -24px;
+    } */
+    .teamDiv {
+        width: 100%;
+    }
+    .organisationFormDiv {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+        box-shadow: 0px 3px 12px #00000014;
+    }
+    .organisationProfileDiv {
+        /* width: 40%;
+        height: 100%;
+        display: flex; */
+        margin-bottom: 8%;
+        /* flex-direction: column;
+        align-items: center;
+        justify-content: center; */
+    }
+    /* .tableDiv {
+      width: 96%;
+    }
+    .searchAndDrop {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    } */
+    .organisationDiv {
+      width: 100%;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+    .tabsDiv {
+        width: 99%;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+    /* .buttonDiv {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .searchBarDiv {
+        padding: 1% 0;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .searchBar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .buttonContainer {
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+}
