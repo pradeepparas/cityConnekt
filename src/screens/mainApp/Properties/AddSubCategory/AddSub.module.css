@@ -18,7 +18,7 @@
     margin-left: 2%;
     margin-top: 1.5%;
     padding: 0 1.5%;
-    height: 70%;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -75,11 +75,20 @@
     justify-content: flex-end;
 }
 /*  */
+@media (min-width: 280px) and (max-width: 320px) {
+  .title {
+    font-size: small;
+  }
+}
 
-@media (min-width: 280px) and (max-width: 653px) {
+@media (min-width: 321px) and (max-width: 653px) {
   .title {
     font-size: larger;
   }
+}
+
+@media (min-width: 280px) and (max-width: 653px) {
+
   .searchBarDiv {
       padding: 1% 0;
       display: flex;
