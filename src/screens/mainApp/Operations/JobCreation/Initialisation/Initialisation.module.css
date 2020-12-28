@@ -1,0 +1,241 @@
+.main {
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+}
+/* header */
+
+.title {
+    margin-left: 2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font: Source Sans Pro;
+    font-size: 28px;
+}
+
+.tableDiv {
+    background-color: white;
+    margin-left: 2%;
+    margin-top: 1.5%;
+    padding: 0 1.5%;
+    /* height: 70%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.searchBar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.searchText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropDownDiv {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.searchBarDiv {
+    padding: 1% 0;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.table{
+    height: 80%;
+}
+
+.searchAndDrop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.buttonAndFilter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.paginationDiv {
+    margin-top: 2%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+@media (min-width: 1441px) and (max-width: 2560px) {
+    .searchAndDrop {
+        width: 40%;
+    }
+    .dropDownDiv {
+        width: 60%;
+    }
+    .buttonAndFilter {
+        width: 22%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .searchAndDrop {
+        width: 50%;
+    }
+    .dropDownDiv {
+        width: 60%;
+    }
+    .buttonAndFilter {
+        width: 30%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .searchAndDrop {
+        width: 70%;
+    }
+    .dropDownDiv {
+        width: 60%;
+    }
+    .buttonAndFilter {
+        width: 40%;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .searchAndDrop {
+        width: 70%;
+    }
+    .dropDownDiv {
+        width: 60%;
+    }
+    .buttonAndFilter {
+        width: 40%;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .searchAndDrop {
+        width: 70%;
+    }
+    .dropDownDiv {
+        width: 80%;
+    }
+    .buttonAndFilter {
+        width: 40%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .searchAndDrop {
+        width: 70%;
+    }
+    .dropDownDiv {
+        width: 80%;
+    }
+    .buttonAndFilter {
+        width: 40%;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 319px) {
+    .searchAndDrop {
+        width: 70%;
+    }
+    .dropDownDiv {
+        width: 80%;
+    }
+    .buttonAndFilter {
+        width: 40%;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 310px) {
+  .title {
+      margin-left: 2%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font: Source Sans Pro;
+      font-size: 17px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 540px) {
+  .title {
+      margin-left: 2%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font: Source Sans Pro;
+      font-size: 22px;
+  }
+}
+
+/* for all small devices */
+@media (min-width: 280px) and (max-width: 540px) {
+
+    .tableDiv {
+      width: 98%;
+    }
+    .searchAndDrop {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .dropDownDiv {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .buttonDiv {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .searchBarDiv {
+        padding: 1% 0;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .searchBar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .buttonContainer {
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttonAndFilter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
